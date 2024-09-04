@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #9db6cc;
+    color: black;
+}
+
+header .logo img {
+    max-width: 120px; 
+    height: 50px;
+}
+
+.botones {
+    text-align: center;
+    padding: 10px;
+}
+
+.diplomado {
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: #F1C40F;
+    padding: 20px;
+    min-height: 100%; 
+}
+
+.boton a {
+    text-decoration: none;
+}
+
+.cursos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.curso-destacado {
+    background-color: #e8e8e8;
+    padding: 20px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logos img {
+    max-height: 230px;
+    max-width: 250px; 
+    height: auto;
+}
